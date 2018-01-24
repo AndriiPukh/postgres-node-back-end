@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "123456fylhtq",
+    "database": "orders-dev",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "pg_"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "",
+    "database": "orders-dev",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
